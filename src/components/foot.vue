@@ -4,25 +4,25 @@
       <router-view></router-view>
     </section>
     <div class="foot">
-      <router-link to="/home" tag="div">
+      <router-link to="/foot/home" tag="div">
         <svg class="icon img" aria-hidden="true">
           <use xlink:href="#icon-shouye" />
         </svg>
         <span>首页</span>
       </router-link>
-      <router-link to="/filters" tag="div">
+      <router-link to="/foot/filters" tag="div">
         <svg class="icon img" aria-hidden="true">
           <use xlink:href="#icon-shaixuan" />
         </svg>
         <span>筛选</span>
       </router-link>
-      <router-link to="/cart" tag="div">
+      <router-link to="/foot/cart" tag="div">
         <svg class="icon img" aria-hidden="true">
           <use xlink:href="#icon-gouwuche" />
         </svg>
         <span>购物车</span>
       </router-link>
-      <router-link to="/me" tag="div">
+      <router-link to="/foot/me" tag="div">
         <svg class="icon img" aria-hidden="true">
           <use xlink:href="#icon-wode" />
         </svg>

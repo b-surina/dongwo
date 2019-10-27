@@ -1,12 +1,26 @@
 <template>
     <div class="cart">
-        <h3>购物车</h3>
+       <swiper :options="swiperOP" ref="myswiper" class="s2">
+            <swiper-slide>1111</swiper-slide>
+            <swiper-slide>2222</swiper-slide>
+            <swiper-slide>3333</swiper-slide>
+            <swiper-slide>4444</swiper-slide>
+       </swiper>
     </div>
 </template>
 
 <script>
+import {swiper,swiperSlide} from "vue-awesome-swiper"
     export default {
-        name:"Cart"
+        name:"Cart",
+        components:{swiperSlide,swiper},
+        data(){
+            return {
+                swiperOP:{
+                    slidesPerView:'auto'
+                }
+            }
+        }
     }
 </script>
 
@@ -16,5 +30,9 @@
         h3{
             padding: 20px;
         }
+    }
+    .s2{
+        width: 100%;
+        height: #f00;
     }
 </style>
