@@ -14,7 +14,7 @@
         <div class="a_body">
             <ul class="a_ul">
                 <li v-for="(item,key) in list" :key="key">
-                       <img :src="item.img" >
+                       <img v-lazy="item.img" >
                        <div> <p>{{item.name}}</p> </div>
                        <div class="a_div2"> 
                            <p>￥{{item.price}} </p>
