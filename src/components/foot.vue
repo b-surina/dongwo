@@ -46,11 +46,13 @@ export default {
   flex-direction: column;
   section {
     flex: 1;
+    overflow: auto;
   }
   .foot {
     width: 100%;
     height: 0.96rem;
     border-top: 0.01rem solid;
+    // background: red;
     display: flex;
     div {
       width: 25%;

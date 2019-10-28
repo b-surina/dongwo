@@ -1,19 +1,27 @@
 <template>
   <div id="app">
-    <section>
+   
       <router-view></router-view>
-    </section>
+    
+    <!-- <A/> -->
   </div>
 </template>
+<script>
+// import A from './components/a'
 
+export default {
+  name:"app",
+  components:{
+    // A
+  }
+
+}
+</script>
 <style lang="scss">
 #app{
   width:100%;
   height: 100%;
-  display:flex;
-  section{
-    flex:1;
-  }
+  
 }
 
 </style>
