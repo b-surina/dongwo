@@ -46,6 +46,7 @@ export default {
   flex-direction: column;
   section {
     flex: 1;
+    overflow: auto;
   }
   .foot {
     width: 100%;

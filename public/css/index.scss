@@ -1,0 +1,118 @@
+.content div{
+    background: #fff;
+}
+div{
+    box-sizing: border-box;
+}
+.banner{
+    width: 100%;
+}
+.banner img{
+    width: 100%;
+}
+.login{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: .15rem .27rem;
+}
+.login button{
+    width: 0.92rem;
+    height: 0.55rem;
+    background: #2f2f33;
+    color:#fff;
+    border: none;
+    outline-style: none;
+}
+.ka{
+    margin-top: .2rem;
+    height: 1.3rem;
+    display: flex;
+    align-items: center;
+    width: 95%;
+    margin-left: .2rem;
+    border-radius: 10px;
+    div{
+        width: 33.3%;
+        text-align: center;
+        margin-top: .12rem;
+        span{
+            display: block;
+            margin-bottom: .24rem;
+        }
+        span:nth-of-type(1){
+            font-weight: bolder;
+        }
+        span:nth-of-type(2){
+            color: #a9a9a9;
+        }
+    }
+}
+.order{
+    margin-top: .2rem;
+    width: 95%;
+    margin-left: .2rem;
+    border-radius: 10px;
+    #p1{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: .28rem .25rem;
+        border-bottom: 1px solid #f4f4f4;
+        span:nth-of-type(1){
+            font-size:.3rem;
+            font-weight: bolder;
+        }
+        span:nth-of-type(2){
+            color: #a7a7a7;
+            display: flex;
+            align-items: center;
+            .icon{
+                color: #a1a1a1;
+            }
+        }
+    }
+}
+.my-menu{
+    display: flex;
+    align-items: center;
+    div{
+        text-align: center;
+        width: 20%;
+        padding: .45rem 0;
+        p{
+            font-size: .2rem;
+            margin-top: .15rem;
+        }
+        .icon{
+            font-size: .48rem;
+        }
+    }
+}
+.my-item{
+    margin-top: .2rem;
+    height: .82rem;
+    width: 95%;
+    border-radius: 10px;
+    margin-left: .2rem;
+    div{
+        display: flex;
+        line-height: .82rem;
+        padding: 0 .28rem;
+        justify-content: space-between;
+        .icon{
+            font-size: .38rem;
+        }
+        span{
+            font-size: .26rem;
+            margin-left: .23rem;
+        }
+        i{
+            color: #9b9b9b;
+        }
+        p{
+            display: flex;
+            align-items: center;
+        }
+    }
+}
